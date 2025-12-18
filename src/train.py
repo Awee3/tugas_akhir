@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 # Konfigurasi Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, 'data', 'creditcard.csv')
-MODEL_PATH = os.path.join(BASE_DIR, 'models', 'rf_model.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, 'models', 'rf_model_v2.pkl')
 
 def train():
     print("1. Memuat dataset...")
