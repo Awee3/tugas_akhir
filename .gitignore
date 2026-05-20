@@ -13,7 +13,6 @@ __pycache__/
 data/
 *.csv
 
-# Model (KITA PERLU INI, jadi pastikan tidak di-ignore)
 # Jika folder models/ ingin di-ignore kecuali file pkl, gunakan pola ini:
 # models/*
 # !models/*.pkl
