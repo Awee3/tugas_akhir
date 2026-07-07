@@ -7,7 +7,7 @@ from xgboost import XGBClassifier
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 DATA_PATH   = os.path.join(os.path.dirname(__file__), "..", "data", "creditcard.csv")
-MODEL_OUT   = os.path.join(os.path.dirname(__file__), "..", "models", "xgboost_model_2.pkl")
+MODEL_OUT   = os.path.join(os.path.dirname(__file__), "..", "models", "xgboost_model_test6.pkl")
 TARGET_COL  = "Class"
 RANDOM_SEED = 42
 # ─────────────────────────────────────────────────────────────────────────────
